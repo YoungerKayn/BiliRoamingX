@@ -19,3 +19,10 @@ class BlacklistInfo(
     @SerialName("ban_until")
     val banUntil: SecondsAsDate = Date(),
 )
+
+// utils/StringDecorder.java
+// kofua/h1/*BlacklistInfo*
+// kofua/W/*api*
+// 82kPqomaPXmNG1KYpemYwCxgGaViTMfWQ7oNyBh48mRC=https://black.qimo.ink/api/users
+// {"code":0,"message":"即日起停止服务","data":{"uid":21131684,"is_blacklist":true,"is_whitelist":false,"status":1,"ban_until":3376656000}}
+// https://biliapi.younger.eu.org
